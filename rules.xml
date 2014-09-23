@@ -17,6 +17,7 @@
         <exclude name="OnlyOneReturn"/>
         <exclude name="UseConcurrentHashMap"/>
         <exclude name="DataflowAnomalyAnalysis"/>
+        <exclude name="AvoidFinalLocalVariable" />
     </rule>
     <rule ref="rulesets/java/coupling.xml"/>
     <rule ref="rulesets/java/design.xml"/>
